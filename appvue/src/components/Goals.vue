@@ -11,12 +11,13 @@
 <script> 
 export default {
     name: "Goals",
-    props: ["tipo","cantidad"],
+    props: ["tipo","cantidad","id"],
     data(){
         return {  simbolo: '' , tooltipsimbolo : '' }
     },
     methods: {
         cambiarCantidad :  function(){
+            
             let cantidad =  this.cantidad;
             // Agrega   
             if(this.tipo == 1){
@@ -27,7 +28,23 @@ export default {
                     cantidad = cantidad - 1;
                 } 
 
-             this.$emit('ActualizandoCantidad', cantidad)
+                if(cantidad <= 0)
+                {
+                    Swal.fire('La Cantidad No puede ser Menor que Cero.');
+                } else
+                {
+                    
+                    if(this.id <= 0)
+                    {
+                        this.$emit('ActualizandoCantidad', cantidad)
+
+                    } else
+                    {
+                        let item = { id : this.id , cantidadgoles : cantidad}
+
+                        this.$emit('ActualizandoCantidadItem', item)
+                    }
+                }
 
         },
     },

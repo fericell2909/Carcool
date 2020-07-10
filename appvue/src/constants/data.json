@@ -3,54 +3,54 @@
 "id":1,
 "nombre":"Marco Estrada Lopez",
 "posicion":"Arquero",
-"totalgoles":0
+"cantidadgoles":0
 },
 { 
 "id":2,
 "nombre":"Christian Estrada Lopez",
 "posicion":"Defensa Central",
-"totalgoles":0
+"cantidadgoles":0
 },
 { 
 "id":3,
 "nombre":"Franco Estrada Lopez",
 "posicion":"Defensa Lateral",
-"totalgoles":0
+"cantidadgoles":0
 },
 { 
 "id":4,
 "nombre":"Manuel Estrada Sifuentes",
 "posicion":"Mediocampista",
-"totalgoles":0
+"cantidadgoles":0
 },
 { 
 "id":5,
 "nombre":"Hipolito Estrada Sifuentes",
 "posicion":"Mediocampista Def.",
-"totalgoles":0
+"cantidadgoles":0
 },
 { 
 "id":6,
 "nombre":"Carlos Estrada Sifuentes",
 "posicion":"Mediocampista Of.",
-"totalgoles":0
+"cantidadgoles":0
 },
 { 
 "id":7,
 "nombre":"Enrique Garcia Estrada",
 "posicion":"Delantero Central",
-"totalgoles":0
+"cantidadgoles":0
 },
 { 
 "id":8,
 "nombre":"Henry Zavaleta Lopez",
 "posicion":"Delanterio Extremo",
-"totalgoles":0
+"cantidadgoles":0
 },
 { 
 "id":9,
 "nombre":"Juan Perez",
 "posicion":"Lateral Volante",
-"totalgoles":0
+"cantidadgoles":0
 } 
 ]

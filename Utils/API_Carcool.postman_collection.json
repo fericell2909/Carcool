@@ -1,0 +1,192 @@
+{
+	"info": {
+		"_postman_id": "23f2edb6-e990-4ffd-aa1b-de830d17a134",
+		"name": "API_Carcool",
+		"description": "Api para la entrevista de trabajo.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Crear Usuarios  API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Nombre de Prueba",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "1234",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "prueba_ejemplo_registro@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar Jugador",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImYzYjJiOTFmYWFiYjFmZWM5ODFmNTk4ZmQyZDVmNjdiMTI2YzhmOGU5YWQyNzA0YzZlNGJhMDAyYzRiOWY2MDcyMmM3ZGZiNjZmYjA0YTk3In0.eyJhdWQiOiIxIiwianRpIjoiZjNiMmI5MWZhYWJiMWZlYzk4MWY1OThmZDJkNWY2N2IxMjZjOGY4ZTlhZDI3MDRjNmU0YmEwMDJjNGI5ZjYwNzIyYzdkZmI2NmZiMDRhOTciLCJpYXQiOjE1OTQyNDIyNTgsIm5iZiI6MTU5NDI0MjI1OCwiZXhwIjoxNjI1Nzc4MjU4LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.nWyQC-Hdls8GpEdX70IL2oEOE7HaSrnoATkxvj2Vml0RK70_RdDoIiMo-vY6UoF_QRiHkAle3Gu8RDaSePM_tbhkgMMQfplK-3vhZLkCRfbsJbT69qVlXohEQ9OJxHKzJfUx2hoFUJhhoCudiwzqiLnCNVorwpkjQcXgi1kcLyCj5vCNklNXD0JDoSykFG6bTWaPznPCiumJbIgBbzJqZ9wDK-oQt_safr4bOV66NvEy_Cyu1FLD9byuDbnmPDvF8lv8f_clnqd8hhwDMh9PKUSiGPib1vTIS8-mX6Nlv97u_Ez8pDJbG3mUomiiAT7lSMepp4ZoYCINHx1_3EPI_aRwMUeJLCOno-mSlyEmBX3wZ2NrUAhKTG_6rdcDPkQtkbQVZ5n8hiWZ8GwpNcLyKpfqkbHhSZaxbS9cG7wo60dZfjSCViH9IbrXxheyJEXcRTix3GMw79-fUvwKR8p_rnA_4kjeRxAF9dD7-pkDCLDk0kdyu3iBJOyaedPlk1ui2tXEIygoks4miJidYg0UgknG6jeyh0ocq2ZNJQvCjPezZEF-FmL4TIQ6mNXOrocVhjwF0He0AYpbJPBls7Qn0WMdqYFrdAAqH0m6jjbDAH2WsmSbBIscJhO1gS9xXcI23f0w_wIoa8gY0kJrvkmnHKTmYS2T1sPx-G3PqOncbNM"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/mostrarjugador/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"mostrarjugador",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Equipos donde ha jugado",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImYzYjJiOTFmYWFiYjFmZWM5ODFmNTk4ZmQyZDVmNjdiMTI2YzhmOGU5YWQyNzA0YzZlNGJhMDAyYzRiOWY2MDcyMmM3ZGZiNjZmYjA0YTk3In0.eyJhdWQiOiIxIiwianRpIjoiZjNiMmI5MWZhYWJiMWZlYzk4MWY1OThmZDJkNWY2N2IxMjZjOGY4ZTlhZDI3MDRjNmU0YmEwMDJjNGI5ZjYwNzIyYzdkZmI2NmZiMDRhOTciLCJpYXQiOjE1OTQyNDIyNTgsIm5iZiI6MTU5NDI0MjI1OCwiZXhwIjoxNjI1Nzc4MjU4LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.nWyQC-Hdls8GpEdX70IL2oEOE7HaSrnoATkxvj2Vml0RK70_RdDoIiMo-vY6UoF_QRiHkAle3Gu8RDaSePM_tbhkgMMQfplK-3vhZLkCRfbsJbT69qVlXohEQ9OJxHKzJfUx2hoFUJhhoCudiwzqiLnCNVorwpkjQcXgi1kcLyCj5vCNklNXD0JDoSykFG6bTWaPznPCiumJbIgBbzJqZ9wDK-oQt_safr4bOV66NvEy_Cyu1FLD9byuDbnmPDvF8lv8f_clnqd8hhwDMh9PKUSiGPib1vTIS8-mX6Nlv97u_Ez8pDJbG3mUomiiAT7lSMepp4ZoYCINHx1_3EPI_aRwMUeJLCOno-mSlyEmBX3wZ2NrUAhKTG_6rdcDPkQtkbQVZ5n8hiWZ8GwpNcLyKpfqkbHhSZaxbS9cG7wo60dZfjSCViH9IbrXxheyJEXcRTix3GMw79-fUvwKR8p_rnA_4kjeRxAF9dD7-pkDCLDk0kdyu3iBJOyaedPlk1ui2tXEIygoks4miJidYg0UgknG6jeyh0ocq2ZNJQvCjPezZEF-FmL4TIQ6mNXOrocVhjwF0He0AYpbJPBls7Qn0WMdqYFrdAAqH0m6jjbDAH2WsmSbBIscJhO1gS9xXcI23f0w_wIoa8gY0kJrvkmnHKTmYS2T1sPx-G3PqOncbNM"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/listarequipos/18",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"listarequipos",
+						"18"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Registrar Jugador",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImYzYjJiOTFmYWFiYjFmZWM5ODFmNTk4ZmQyZDVmNjdiMTI2YzhmOGU5YWQyNzA0YzZlNGJhMDAyYzRiOWY2MDcyMmM3ZGZiNjZmYjA0YTk3In0.eyJhdWQiOiIxIiwianRpIjoiZjNiMmI5MWZhYWJiMWZlYzk4MWY1OThmZDJkNWY2N2IxMjZjOGY4ZTlhZDI3MDRjNmU0YmEwMDJjNGI5ZjYwNzIyYzdkZmI2NmZiMDRhOTciLCJpYXQiOjE1OTQyNDIyNTgsIm5iZiI6MTU5NDI0MjI1OCwiZXhwIjoxNjI1Nzc4MjU4LCJzdWIiOiIxMSIsInNjb3BlcyI6W119.nWyQC-Hdls8GpEdX70IL2oEOE7HaSrnoATkxvj2Vml0RK70_RdDoIiMo-vY6UoF_QRiHkAle3Gu8RDaSePM_tbhkgMMQfplK-3vhZLkCRfbsJbT69qVlXohEQ9OJxHKzJfUx2hoFUJhhoCudiwzqiLnCNVorwpkjQcXgi1kcLyCj5vCNklNXD0JDoSykFG6bTWaPznPCiumJbIgBbzJqZ9wDK-oQt_safr4bOV66NvEy_Cyu1FLD9byuDbnmPDvF8lv8f_clnqd8hhwDMh9PKUSiGPib1vTIS8-mX6Nlv97u_Ez8pDJbG3mUomiiAT7lSMepp4ZoYCINHx1_3EPI_aRwMUeJLCOno-mSlyEmBX3wZ2NrUAhKTG_6rdcDPkQtkbQVZ5n8hiWZ8GwpNcLyKpfqkbHhSZaxbS9cG7wo60dZfjSCViH9IbrXxheyJEXcRTix3GMw79-fUvwKR8p_rnA_4kjeRxAF9dD7-pkDCLDk0kdyu3iBJOyaedPlk1ui2tXEIygoks4miJidYg0UgknG6jeyh0ocq2ZNJQvCjPezZEF-FmL4TIQ6mNXOrocVhjwF0He0AYpbJPBls7Qn0WMdqYFrdAAqH0m6jjbDAH2WsmSbBIscJhO1gS9xXcI23f0w_wIoa8gY0kJrvkmnHKTmYS2T1sPx-G3PqOncbNM"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "Juan Perez",
+							"type": "text"
+						},
+						{
+							"key": "posicion",
+							"value": "Lateral Volante",
+							"type": "text"
+						},
+						{
+							"key": "totalgoles",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/registrarjugador",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"registrarjugador"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
