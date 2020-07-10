@@ -34,6 +34,8 @@ Ver [Configuration Reference](https://cli.vuejs.org/config/).
           
             php artisan serve
     
-    9) Aqui puede ver la colleccion creada en postman [Link](https://documenter.getpostman.com/view/6327993/T17Kd6ux)  
+     9) Aqui puede ver la colleccion creada en postman [Link](https://documenter.getpostman.com/view/6327993/T17Kd6ux)
+
+     10 ) En la Carpeta Utils se encuentra el archivo .json de la coleccion de postman. 
           
           
