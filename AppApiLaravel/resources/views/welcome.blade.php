@@ -66,8 +66,9 @@
                 </div>
                 <span class="badge"> Por : </span><label for="" class="primary">Marco Estrada Lopez</label>
                 <div class="links">
-                    <a href="https://github.com/fericell2909">GitHub</a>
-                    <a href="https://www.linkedin.com/in/marcoestradalopez">LinkedIn</a>
+                    <a href="https://github.com/fericell2909" target="_blanck">GitHub</a>
+                    <a href="https://www.linkedin.com/in/marcoestradalopez" target="_blanck">LinkedIn</a>
+                    <a href="https://documenter.getpostman.com/view/6327993/T17Kd6ux" target="_blanck">Documentacion</a>                    
                 </div>
             </div>
         </div>

@@ -50,7 +50,8 @@
 						"api",
 						"register"
 					]
-				}
+				},
+				"description": "Para Tener Acceso a los Metodos es necesario registrar usuarios.\r\n\r\nEste Endpoint permite registrar usuarios al Sistema, el\r\ncual le devuelve un token de Autorizacion"
 			},
 			"response": []
 		},
@@ -88,7 +89,8 @@
 						"mostrarjugador",
 						"1"
 					]
-				}
+				},
+				"description": "Endpoint : Que devuelve los datos de un jugador especifico."
 			},
 			"response": []
 		},
@@ -126,7 +128,8 @@
 						"listarequipos",
 						"18"
 					]
-				}
+				},
+				"description": "Listado En todos los equipos en los que ha jugado ."
 			},
 			"response": []
 		},
