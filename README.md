@@ -21,28 +21,30 @@ Repositorio de las Fuentes de la Entrevista de  Trabajo.
 5.  Personalizacion segun preferencia
 Ver [Configuration Reference](https://cli.vuejs.org/config/).
 
-  6) Para Laravel ubicarse en la raiz (AppApiLaravel)  y ejecutar lo siguiente :
+
+6. Para Laravel ubicarse en la raiz (AppApiLaravel)  y ejecutar lo siguiente :
         
          composer install
     
-    7) Crear credenciales de acceso a bd , configurar el archivo .env con los
+7. Crear credenciales de acceso a bd , configurar el archivo .env con los
       datos de acceso a la bd y ejecutar el siguiente comando
 
             php artisan migrate
 
-    8 ) Ejecute el comando : 
 
-              php artisan passport:install               
-     8) Ejecutar el comando.
+ 8. Ejecute el comando : 
+
+              php artisan passport:install   
+
+
+ 9. Ejecutar el comando.
           
             php artisan serve
     
+10. Aqui puede ver la colleccion creada en postman   [Link](https://documenter.getpostman.com/view/6327993/T17Kd6ux) 
      
      
-     9) Aqui puede ver la colleccion creada en postman 
-     
-     [Link](https://documenter.getpostman.com/view/6327993/T17Kd6ux)
 
-     10 ) En la Carpeta Utils se encuentra el archivo .json de la coleccion de postman. 
+ 11. En la Carpeta Utils se encuentra el archivo .json de la coleccion de postman. 
           
           
